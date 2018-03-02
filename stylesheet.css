@@ -37,7 +37,7 @@ li {
 .main {
 /*  float: right;
   width: 75%;*/
-  font-family: "Alegreya Sans SC Font";
+  font-family: "Courier";
   background-color: #31444D; /*#4C5C68;*/
   color: #C5C3C6;
 
@@ -53,8 +53,8 @@ li {
 }
 
 .pic_size{
-  width: 80%;
-  background-color: white;
+  /*width: 100%;*/
+  /*background-color: white;*/
 }
 
 .pic_size_small{
