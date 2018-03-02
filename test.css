@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  width: 500px;
+  background-color: red;
+}
+
+.main {
+  flex: auto;
+  min-width: 600px;
+  width: auto;
+  overflow-y: scroll;
+  background-color: pink;
+}
+
+.right {
+  width: 250px;
+  background-color: yellow;
+}
