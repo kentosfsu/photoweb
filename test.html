@@ -4,13 +4,36 @@
     <meta charset="utf-8">
     <title>test</title>
     <link rel="stylesheet" href="test.css">
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+      <script>
+        $(document).ready(function(){
+          $('.slider').bxSlider({
+            // auto: true,
+            speed: 1000
+          });
+        });
+      </script>
+
   </head>
+
+
+
 
   <body>
     <div class="container">
       <div class="left"><p>ああああああ</p></div>
       <div class="main">
-        <p>ああああああ</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><p>ああああああ</p><br><br><br><br><br>
+        <p>ああああああ</p>
+
+        <div class="slider">
+          <div><img src="image/img00001.JPG" class="pic_size"></div>
+          <div><img src="image/img00002.JPEG" class="pic_size"></div>
+        </div>
+
       </div>
       <div class="right"><p>ああああああ</p></div>
     </div>

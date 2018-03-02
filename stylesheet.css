@@ -15,7 +15,7 @@ li {
 
 .menu {
   font-family: "Avenir Next";
-  background-color: #46494C;
+  background-color: #597C8B; /*#46494C;*/
   color: #DCDCDD;
   /*width: 400px;*/
   min-width: 130px;
@@ -38,7 +38,7 @@ li {
 /*  float: right;
   width: 75%;*/
   font-family: "Alegreya Sans SC Font";
-  background-color: #4C5C68;
+  background-color: #31444D; /*#4C5C68;*/
   color: #C5C3C6;
 
   flex: auto;
@@ -72,6 +72,10 @@ li {
 .icon_grid li{
   margin: 0px 5px 0px 0px;
   float: left;
+}
+
+.images{
+  text-align: center;
 }
 
 
