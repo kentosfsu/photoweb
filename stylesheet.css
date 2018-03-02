@@ -44,7 +44,7 @@ li {
   min-width: 600px;
   width: auto;
   overflow-y: scroll;
-  padding: 30px;
+  padding: 30px 0px 0px 30px;
 }
 
 .main h1{
@@ -54,6 +54,27 @@ li {
 .pic_size{
   width: 80%;
   background-color: white;
+}
+
+.pic_size_small{
+  width: 250px;
+}
+
+.icon_grid{
+  background-color: #1C2541;
+  padding: 0px;
+  margin: auto;
+  width: 900px;
+}
+
+/*.icon_images{
+  float: left;
+  width: 33.3%;
+}*/
+
+.icon_grid li{
+  margin: 0px 5px 0px 0px;
+  float: left;
 }
 
 
